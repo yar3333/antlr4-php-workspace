@@ -28,7 +28,7 @@ Next files are added/modified:
  * clone this repo (`git clone --recurse-submodules https://github.com/yar3333/antlr4-php-workspace.git`);
  * goto `tests/basic` and run `build_antlr_and_generate.cmd`;
  * open `tests/basic` in your IDE (setting for `phpstorm` already in repo):
-	* `antlr4` - link antlr4 folder contains PHP classes used in runtime;
+	* `antlr4` - link to antlr4 folder contains PHP classes used in runtime;
 	* `Gram.g4` - grammar file;
 	* `Gram.php` - PHP entry point.
 
