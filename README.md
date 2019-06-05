@@ -12,7 +12,8 @@ Next files are added/modified:
  
  * `tool/resources/org/antlr/v4/tool/templates/codegen/Php/Php.stg` - template for generate PHP code;
  * `runtime/Php` - files which must be used in your PHP application (converted from `runtime/JavaScript`and fixed using `runtime/Java` as a reference);
- * `tool/src/org/antlr/v4/codegen/target/PhpTarget.java` - used by code generator (serialize data to PHP string, list of PHP keywords...).
+ * `tool/src/org/antlr/v4/codegen/target/PhpTarget.java` - used by code generator (serialize data to PHP string, list of PHP keywords...);
+ * several fixes in antlr4 core (because PHP does not support nested classes, but original antlr4 expect this feature supported).
 
 
 ## Notes
