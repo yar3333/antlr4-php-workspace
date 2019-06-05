@@ -25,7 +25,7 @@ Next files are added/modified:
 
  * install latest [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html);
  * install [Maven](https://maven.apache.org/);
- * clone this repo;
+ * clone this repo (`git clone --recurse-submodules https://github.com/yar3333/antlr4-php-workspace.git`);
  * goto `tests/basic` and run `build_antlr_and_generate.cmd`;
  * open `tests/basic` in your IDE (setting for `phpstorm` already in repo):
 	* `antlr4` - link antlr4 folder contains PHP classes used in runtime;
