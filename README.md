@@ -11,8 +11,8 @@ This repo is a root for [antlr4](https://github.com/yar3333/antlr4) subrepo with
 Next files are added/modified:
  
 	* `tool/resources/org/antlr/v4/tool/templates/codegen/Php/Php.stg` - template for generate PHP code;
-	* `runtime/Php` - files which must be used in your PHP application (converted from `runtime/JavaScript` target and fixed using `runtime/Java` target);
-	* `tool/src/org/antlr/v4/codegen/target/PhpTarget.java` - simple code to serialize data to PHP string and specify list of PHP keywords.
+	* `runtime/Php` - files which must be used in your PHP application (converted from `runtime/JavaScript`and fixed using `runtime/Java` as a reference);
+	* `tool/src/org/antlr/v4/codegen/target/PhpTarget.java` - used by code generator (serialize data to PHP string, list of PHP keywords...).
 
 
 ## Notes
