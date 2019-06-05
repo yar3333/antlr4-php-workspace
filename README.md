@@ -1,6 +1,6 @@
 # ANTLR v4 / workspace for PHP target
 
-This repo is a root for `antlr4` subrepo with a `PHP` target and contains `tests` folder as playground.
+This repo is a root for [antlr4](https://github.com/yar3333/antlr4) subrepo with a `PHP` target and contains `tests` folder as playground.
 
 
 ## About `antlr4` subrepo
