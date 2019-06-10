@@ -1,2 +1,4 @@
 tests/basic/antlr4
 tests/expression/antlr4
+tests/basic/generated/
+tests/expression/generated/
