@@ -14,53 +14,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gram.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generated/GramParser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6120">
-              <caret line="360" column="26" selection-start-line="360" selection-start-column="26" selection-end-line="360" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generated/GramBaseVisitor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generated/GramLexer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/antlr4/IntervalSet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -111,8 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../antlr4/runtime/Php/predictioncontexts/SingletonPredictionContext.php" />
-        <option value="$PROJECT_DIR$/src/antlr4/tree/TerminalNode.php" />
         <option value="$PROJECT_DIR$/src/antlr4/tree/ParseTree.php" />
         <option value="$PROJECT_DIR$/src/antlr4/tree/SyntaxTree.php" />
         <option value="$PROJECT_DIR$/src/antlr4/tree/Tree.php" />
@@ -162,6 +114,8 @@
         <option value="$PROJECT_DIR$/Gram.php" />
         <option value="$PROJECT_DIR$/../antlr4/tool/resources/org/antlr/v4/tool/templates/codegen/Php/Php.stg" />
         <option value="$PROJECT_DIR$/antlr4/IntervalSet.php" />
+        <option value="$PROJECT_DIR$/Visitor.php" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -187,11 +141,6 @@
             <path>
               <item name="basic" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="antlr4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +179,7 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/main.php">
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Gram.php">
+    <configuration name="main" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/main.php">
       <method v="2" />
     </configuration>
   </component>
@@ -256,17 +205,17 @@
       <workItem from="1559724519652" duration="50000" />
       <workItem from="1559724761641" duration="126000" />
       <workItem from="1560237269126" duration="108000" />
+      <workItem from="1560257901946" duration="112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89081000" />
+    <option name="totallyTimeSpent" value="89193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.14552239" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,9 +310,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/antlr4/atn/ATN.php" />
-    <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/AbstractPredicateTransition.php" />
-    <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/ActionTransition.php" />
     <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/AtomTransition.php" />
     <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/EpsilonTransition.php" />
     <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/NotSetTransition.php" />
@@ -420,17 +366,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generated/GramParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6120">
-          <caret line="360" column="26" selection-start-line="360" selection-start-column="26" selection-end-line="360" selection-end-column="26" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/generated/GramBaseVisitor.php">
+    <entry file="file://$PROJECT_DIR$/antlr4/IntervalSet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="434">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -441,10 +383,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/antlr4/IntervalSet.php">
+    <entry file="file://$PROJECT_DIR$/generated/GramBaseVisitor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/GramParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="362" column="25" selection-start-line="362" selection-start-column="25" selection-end-line="362" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visitor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>

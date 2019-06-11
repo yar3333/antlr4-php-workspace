@@ -14,93 +14,12 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/antlr4/IntervalSet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../antlr4/runtime/Php/atn/transitions/ActionTransition.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/antlr4/predictioncontexts/PredictionContext.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/antlr4/RuleContext.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2751">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../antlr4/runtime/Php/atn/LexerATNSimulator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="560" column="131" selection-start-line="560" selection-start-column="131" selection-end-line="560" selection-end-column="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/antlr4/atn/transitions/ActionTransition.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/antlr4/atn/ATNDeserializer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="683" column="62" lean-forward="true" selection-start-line="683" selection-start-column="62" selection-end-line="683" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../antlr4/runtime/Php/atn/ATNDeserializer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="678" column="40" selection-start-line="678" selection-start-column="40" selection-end-line="678" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../antlr4/tool/resources/org/antlr/v4/tool/templates/codegen/Php/Php.stg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="1121" column="53" selection-start-line="1121" selection-start-column="53" selection-end-line="1121" selection-end-column="53" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -182,7 +101,6 @@
         <option value="$PROJECT_DIR$/Gram.php" />
         <option value="$PROJECT_DIR$/../antlr4/tool/resources/org/antlr/v4/tool/templates/codegen/Php/Php.stg" />
         <option value="$PROJECT_DIR$/antlr4/IntervalSet.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/../../antlr4/runtime/Php/atn/transitions/ActionTransition.php" />
         <option value="$PROJECT_DIR$/antlr4/predictioncontexts/PredictionContext.php" />
         <option value="$PROJECT_DIR$/antlr4/atn/actions/LexerSkipAction.php" />
@@ -208,6 +126,7 @@
         <option value="$PROJECT_DIR$/antlr4/Interval.php" />
         <option value="$PROJECT_DIR$/antlr4/RuleContext.php" />
         <option value="$PROJECT_DIR$/../../antlr4/tool/resources/org/antlr/v4/tool/templates/codegen/Php/Php.stg" />
+        <option value="$PROJECT_DIR$/main.php" />
       </list>
     </option>
   </component>
@@ -227,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,6 +157,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,17 +216,19 @@
       <workItem from="1559724519652" duration="50000" />
       <workItem from="1559724761641" duration="126000" />
       <workItem from="1560235855274" duration="1328000" />
+      <workItem from="1560255382095" duration="922000" />
+      <workItem from="1560258099806" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90301000" />
+    <option name="totallyTimeSpent" value="91272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.14552239" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -402,9 +323,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/WildcardTransition.php" />
-    <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/Transition.php" />
-    <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/SetTransition.php" />
     <entry file="file://$PROJECT_DIR$/src/antlr4/atn/states/RuleStartState.php" />
     <entry file="file://$PROJECT_DIR$/src/antlr4/atn/transitions/RuleTransition.php" />
     <entry file="file://$PROJECT_DIR$/src/antlr4/ParserRuleContext.php" />
@@ -449,73 +367,86 @@
     <entry file="file://$PROJECT_DIR$/generated/GramParser.php" />
     <entry file="file://$PROJECT_DIR$/generated/GramBaseVisitor.php" />
     <entry file="file://$PROJECT_DIR$/generated/GramLexer.php" />
-    <entry file="file://$PROJECT_DIR$/antlr4/IntervalSet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../antlr4/runtime/Php/atn/LexerATNSimulator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="560" column="131" selection-start-line="560" selection-start-column="131" selection-end-line="560" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/antlr4/atn/transitions/ActionTransition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/antlr4/atn/ATNDeserializer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="683" column="62" lean-forward="true" selection-start-line="683" selection-start-column="62" selection-end-line="683" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../antlr4/runtime/Php/atn/transitions/ActionTransition.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="527">
           <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/antlr4/predictioncontexts/PredictionContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/antlr4/RuleContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2751">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../antlr4/runtime/Php/atn/ATNDeserializer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="678" column="40" selection-start-line="678" selection-start-column="40" selection-end-line="678" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../antlr4/tool/resources/org/antlr/v4/tool/templates/codegen/Php/Php.stg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
-          <caret line="1121" column="53" selection-start-line="1121" selection-start-column="53" selection-end-line="1121" selection-end-column="53" />
+          <caret line="1121" column="3" selection-start-line="1121" selection-start-column="3" selection-end-line="1121" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../antlr4/runtime/Php/atn/ATNDeserializer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="680" column="40" selection-start-line="680" selection-start-column="40" selection-end-line="680" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/antlr4/atn/ATNDeserializer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="685" column="62" selection-start-line="685" selection-start-column="62" selection-end-line="685" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/antlr4/atn/transitions/ActionTransition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../antlr4/runtime/Php/atn/LexerATNSimulator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="570" column="131" selection-start-line="570" selection-start-column="131" selection-end-line="570" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/antlr4/RuleContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/antlr4/predictioncontexts/PredictionContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/antlr4/IntervalSet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generated/DemoLexer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoLexer.g4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>

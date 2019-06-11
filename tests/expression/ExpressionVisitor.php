@@ -1,8 +1,11 @@
 <?php
 
-class ExpressionVisitor extends generated\ExpressionBaseVisitor
+use generated\Contexts\AtomContext;
+use generated\ExpressionBaseVisitor;
+
+class ExpressionVisitor extends ExpressionBaseVisitor
 {
-    function visitAtom(\generated\Contexts\AtomContext $ctx)
+    function visitAtom(AtomContext $ctx)
     {
         return parent::visitAtom($ctx);
     }
