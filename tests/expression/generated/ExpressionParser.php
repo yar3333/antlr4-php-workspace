@@ -6,23 +6,24 @@
 /** @noinspection PhpUnusedAliasInspection */
 /** @noinspection DegradedSwitchInspection */
 /** @noinspection PhpUnusedLocalVariableInspection */
+/** @noinspection SelfClassReferencingInspection */
 
 namespace generated;
 
-use \Antlr4\Atn\ATN;
-use \Antlr4\Atn\ATNDeserializer;
-use \Antlr4\Atn\ParserATNSimulator;
-use \Antlr4\Dfa\DFA;
-use \Antlr4\Error\Exceptions\FailedPredicateException;
-use \Antlr4\Error\Exceptions\NoViableAltException;
-use \Antlr4\Parser;
-use \Antlr4\Predictioncontexts\PredictionContextCache;
-use \Antlr4\Error\Exceptions\RecognitionException;
-use \Antlr4\RuleContext;
-use \Antlr4\Token;
-use \Antlr4\TokenStream;
-use \Antlr4\Vocabulary;
-use \Antlr4\VocabularyImpl;
+use Antlr4\Atn\ATN;
+use Antlr4\Atn\ATNDeserializer;
+use Antlr4\Atn\ParserATNSimulator;
+use Antlr4\Dfa\DFA;
+use Antlr4\Error\Exceptions\FailedPredicateException;
+use Antlr4\Error\Exceptions\NoViableAltException;
+use Antlr4\Parser;
+use Antlr4\Predictioncontexts\PredictionContextCache;
+use Antlr4\Error\Exceptions\RecognitionException;
+use Antlr4\RuleContext;
+use Antlr4\Token;
+use Antlr4\TokenStream;
+use Antlr4\Vocabulary;
+use Antlr4\VocabularyImpl;
 
 class ExpressionParser extends Parser
 {
@@ -125,7 +126,8 @@ class ExpressionParser extends Parser
 		if (self::$_tokenNames === null)
 		{
 			self::$_tokenNames = [];
-			for ($i = 0; $i < count(self::_SYMBOLIC_NAMES); $i++) {
+			$count = count(self::_SYMBOLIC_NAMES);
+			for ($i = 0; $i < $count; $i++) {
 				self::$_tokenNames[] = self::VOCABULARY()->getLiteralName($i);
 				if (self::$_tokenNames[$i] === null) {
 					self::$_tokenNames[$i] = self::VOCABULARY()->getSymbolicName($i);
@@ -1497,11 +1499,11 @@ class ExpressionParser extends Parser
 
 namespace generated\Contexts;
 
-use \Antlr4\ParserRuleContext;
-use \Antlr4\Tree\ParseTreeVisitor;
-use \Antlr4\Tree\TerminalNode;
-use \generated\ExpressionParser;
-use \generated\ExpressionVisitor;
+use Antlr4\ParserRuleContext;
+use Antlr4\Tree\ParseTreeVisitor;
+use Antlr4\Tree\TerminalNode;
+use generated\ExpressionParser;
+use generated\ExpressionVisitor;
 
 class LogicExpressionContext extends ParserRuleContext
 {

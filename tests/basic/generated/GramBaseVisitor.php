@@ -3,7 +3,7 @@
 
 namespace generated;
 
-use \Antlr4\Tree\AbstractParseTreeVisitor;
+use Antlr4\Tree\AbstractParseTreeVisitor;
 
 /**
  * This class provides an empty implementation of {@link GramVisitor},

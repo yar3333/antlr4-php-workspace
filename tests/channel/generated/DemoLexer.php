@@ -3,15 +3,15 @@
 
 namespace generated;
 
-use \Antlr4\Atn\ATNDeserializer;
-use \Antlr4\Atn\LexerATNSimulator;
-use \Antlr4\Lexer;
-use \Antlr4\CharStream;
-use \Antlr4\Predictioncontexts\PredictionContextCache;
-use \Antlr4\Atn\Atn;
-use \Antlr4\Dfa\DFA;
-use \Antlr4\Vocabulary;
-use \Antlr4\VocabularyImpl;
+use Antlr4\Atn\ATNDeserializer;
+use Antlr4\Atn\LexerATNSimulator;
+use Antlr4\Lexer;
+use Antlr4\CharStream;
+use Antlr4\Predictioncontexts\PredictionContextCache;
+use Antlr4\Atn\ATN;
+use Antlr4\Dfa\DFA;
+use Antlr4\Vocabulary;
+use Antlr4\VocabularyImpl;
 
 class DemoLexer extends Lexer
 {
@@ -79,7 +79,8 @@ class DemoLexer extends Lexer
 		if (self::$_tokenNames === null)
 		{
 			self::$_tokenNames = [];
-			for ($i = 0; $i < count(self::_SYMBOLIC_NAMES); $i++) {
+			$count = count(self::_SYMBOLIC_NAMES);
+			for ($i = 0; $i < $count; $i++) {
 				self::$_tokenNames[] = self::VOCABULARY()->getLiteralName($i);
 				if (self::$_tokenNames[$i] === null) {
 					self::$_tokenNames[$i] = self::VOCABULARY()->getSymbolicName($i);

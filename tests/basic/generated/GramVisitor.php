@@ -3,12 +3,12 @@
 
 namespace generated;
 
-use \Antlr4\Tree\ParseTreeVisitor;
-use \generated\Contexts\Alt1Context;
-use \generated\Contexts\Alt2Context;
-use \generated\Contexts\BContext;
-use \generated\Contexts\EContext;
-use \generated\Contexts\ZContext;
+use Antlr4\Tree\ParseTreeVisitor;
+use generated\Contexts\Alt1Context;
+use generated\Contexts\Alt2Context;
+use generated\Contexts\BContext;
+use generated\Contexts\EContext;
+use generated\Contexts\ZContext;
 
 /**
  * This interface defines a complete generic visitor for a parse tree produced by {@link GramParser}.
