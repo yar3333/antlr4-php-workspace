@@ -211,7 +211,7 @@ use generated\GramVisitor;
 
 class RootContext extends ParserRuleContext
 {
-	function subrule() : SubruleContext
+	function subrule() : ?SubruleContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(SubruleContext::class, 0);

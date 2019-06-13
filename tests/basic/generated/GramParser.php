@@ -425,7 +425,7 @@ class EContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(EContext::class);
 	}
-	function eAt(int $i) : EContext
+	function eAt(int $i) : ?EContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(EContext::class, $i);
@@ -446,17 +446,17 @@ class EContext extends ParserRuleContext
 
 class ZContext extends ParserRuleContext
 {
-	function a() : AContext
+	function a() : ?AContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(AContext::class, 0);
 	}
-	function b() : BContext
+	function b() : ?BContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(BContext::class, 0);
 	}
-	function e() : EContext
+	function e() : ?EContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(EContext::class, 0);

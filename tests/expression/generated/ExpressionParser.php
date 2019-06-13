@@ -1514,7 +1514,7 @@ class LogicExpressionContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(AndEquationContext::class);
 	}
-	function andEquationAt(int $i) : AndEquationContext
+	function andEquationAt(int $i) : ?AndEquationContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(AndEquationContext::class, $i);
@@ -1542,7 +1542,7 @@ class AndEquationContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(EquationContext::class);
 	}
-	function equationAt(int $i) : EquationContext
+	function equationAt(int $i) : ?EquationContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(EquationContext::class, $i);
@@ -1570,12 +1570,12 @@ class EquationContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(NumericExpressionContext::class);
 	}
-	function numericExpressionAt(int $i) : NumericExpressionContext
+	function numericExpressionAt(int $i) : ?NumericExpressionContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(NumericExpressionContext::class, $i);
 	}
-	function cmpOp() : CmpOpContext
+	function cmpOp() : ?CmpOpContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(CmpOpContext::class, 0);
@@ -1602,7 +1602,7 @@ class NumericExpressionContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(MultiplyingExpressionContext::class);
 	}
-	function multiplyingExpressionAt(int $i) : MultiplyingExpressionContext
+	function multiplyingExpressionAt(int $i) : ?MultiplyingExpressionContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(MultiplyingExpressionContext::class, $i);
@@ -1631,7 +1631,7 @@ class MultiplyingExpressionContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(PowExpressionContext::class);
 	}
-	function powExpressionAt(int $i) : PowExpressionContext
+	function powExpressionAt(int $i) : ?PowExpressionContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(PowExpressionContext::class, $i);
@@ -1661,7 +1661,7 @@ class PowExpressionContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(AtomContext::class);
 	}
-	function atomAt(int $i) : AtomContext
+	function atomAt(int $i) : ?AtomContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(AtomContext::class, $i);
@@ -1682,47 +1682,47 @@ class PowExpressionContext extends ParserRuleContext
 
 class AtomContext extends ParserRuleContext
 {
-	function scientific() : ScientificContext
+	function scientific() : ?ScientificContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ScientificContext::class, 0);
 	}
-	function string() : StringContext
+	function string() : ?StringContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(StringContext::class, 0);
 	}
-	function scalarVariable() : ScalarVariableContext
+	function scalarVariable() : ?ScalarVariableContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ScalarVariableContext::class, 0);
 	}
-	function group() : GroupContext
+	function group() : ?GroupContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(GroupContext::class, 0);
 	}
-	function listLiteral() : ListLiteralContext
+	function listLiteral() : ?ListLiteralContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ListLiteralContext::class, 0);
 	}
-	function listVariable() : ListVariableContext
+	function listVariable() : ?ListVariableContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ListVariableContext::class, 0);
 	}
-	function func() : FuncContext
+	function func() : ?FuncContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(FuncContext::class, 0);
 	}
-	function notExpression() : NotExpressionContext
+	function notExpression() : ?NotExpressionContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(NotExpressionContext::class, 0);
 	}
-	function unaryMinus() : UnaryMinusContext
+	function unaryMinus() : ?UnaryMinusContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(UnaryMinusContext::class, 0);
@@ -1743,7 +1743,7 @@ class AtomContext extends ParserRuleContext
 class UnaryMinusContext extends ParserRuleContext
 {
 	function MINUS() : TerminalNode { return $this->getToken(ExpressionParser::MINUS, 0); }
-	function minusable() : MinusableContext
+	function minusable() : ?MinusableContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(MinusableContext::class, 0);
@@ -1763,17 +1763,17 @@ class UnaryMinusContext extends ParserRuleContext
 
 class MinusableContext extends ParserRuleContext
 {
-	function scalarVariable() : ScalarVariableContext
+	function scalarVariable() : ?ScalarVariableContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ScalarVariableContext::class, 0);
 	}
-	function group() : GroupContext
+	function group() : ?GroupContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(GroupContext::class, 0);
 	}
-	function func() : FuncContext
+	function func() : ?FuncContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(FuncContext::class, 0);
@@ -1794,7 +1794,7 @@ class MinusableContext extends ParserRuleContext
 class GroupContext extends ParserRuleContext
 {
 	function LPAREN() : TerminalNode { return $this->getToken(ExpressionParser::LPAREN, 0); }
-	function logicExpression() : LogicExpressionContext
+	function logicExpression() : ?LogicExpressionContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(LogicExpressionContext::class, 0);
@@ -1822,7 +1822,7 @@ class ScientificContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(NumberContext::class);
 	}
-	function numberAt(int $i) : NumberContext
+	function numberAt(int $i) : ?NumberContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(NumberContext::class, $i);
@@ -1859,14 +1859,14 @@ class StringContext extends ParserRuleContext
 
 class FuncContext extends ParserRuleContext
 {
-	function funcName() : FuncNameContext
+	function funcName() : ?FuncNameContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(FuncNameContext::class, 0);
 	}
 	function LPAREN() : TerminalNode { return $this->getToken(ExpressionParser::LPAREN, 0); }
 	function RPAREN() : TerminalNode { return $this->getToken(ExpressionParser::RPAREN, 0); }
-	function parameters() : ParametersContext
+	function parameters() : ?ParametersContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ParametersContext::class, 0);
@@ -1893,7 +1893,7 @@ class ParametersContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(ParameterContext::class);
 	}
-	function parameterAt(int $i) : ParameterContext
+	function parameterAt(int $i) : ?ParameterContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(ParameterContext::class, $i);
@@ -1914,12 +1914,12 @@ class ParametersContext extends ParserRuleContext
 
 class ParameterContext extends ParserRuleContext
 {
-	function paramValue() : ParamValueContext
+	function paramValue() : ?ParamValueContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ParamValueContext::class, 0);
 	}
-	function paramName() : ParamNameContext
+	function paramName() : ?ParamNameContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ParamNameContext::class, 0);
@@ -1972,12 +1972,12 @@ class ParamNameContext extends ParserRuleContext
 
 class ParamValueContext extends ParserRuleContext
 {
-	function logicExpression() : LogicExpressionContext
+	function logicExpression() : ?LogicExpressionContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(LogicExpressionContext::class, 0);
 	}
-	function metaFilter() : MetaFilterContext
+	function metaFilter() : ?MetaFilterContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(MetaFilterContext::class, 0);
@@ -1997,7 +1997,7 @@ class ParamValueContext extends ParserRuleContext
 
 class MetaFilterContext extends ParserRuleContext
 {
-	function simpleFilter() : SimpleFilterContext
+	function simpleFilter() : ?SimpleFilterContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(SimpleFilterContext::class, 0);
@@ -2024,7 +2024,7 @@ class SimpleFilterContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(SimpleFilterExpressionContext::class);
 	}
-	function simpleFilterExpressionAt(int $i) : SimpleFilterExpressionContext
+	function simpleFilterExpressionAt(int $i) : ?SimpleFilterExpressionContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(SimpleFilterExpressionContext::class, $i);
@@ -2045,17 +2045,17 @@ class SimpleFilterContext extends ParserRuleContext
 
 class SimpleFilterExpressionContext extends ParserRuleContext
 {
-	function simpleFilterExpressionField() : SimpleFilterExpressionFieldContext
+	function simpleFilterExpressionField() : ?SimpleFilterExpressionFieldContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(SimpleFilterExpressionFieldContext::class, 0);
 	}
-	function cmpOp() : CmpOpContext
+	function cmpOp() : ?CmpOpContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(CmpOpContext::class, 0);
 	}
-	function simpleFilterExpressionValue() : SimpleFilterExpressionValueContext
+	function simpleFilterExpressionValue() : ?SimpleFilterExpressionValueContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(SimpleFilterExpressionValueContext::class, 0);
@@ -2091,27 +2091,27 @@ class SimpleFilterExpressionFieldContext extends ParserRuleContext
 
 class SimpleFilterExpressionValueContext extends ParserRuleContext
 {
-	function scalarVariable() : ScalarVariableContext
+	function scalarVariable() : ?ScalarVariableContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ScalarVariableContext::class, 0);
 	}
-	function scientific() : ScientificContext
+	function scientific() : ?ScientificContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ScientificContext::class, 0);
 	}
-	function string() : StringContext
+	function string() : ?StringContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(StringContext::class, 0);
 	}
-	function listLiteral() : ListLiteralContext
+	function listLiteral() : ?ListLiteralContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ListLiteralContext::class, 0);
 	}
-	function listVariable() : ListVariableContext
+	function listVariable() : ?ListVariableContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ListVariableContext::class, 0);
@@ -2199,7 +2199,7 @@ class ListLiteralContext extends ParserRuleContext
 	{
 		return $this->getTypedRuleContexts(AtomContext::class);
 	}
-	function atomAt(int $i) : AtomContext
+	function atomAt(int $i) : ?AtomContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 	    return $this->getTypedRuleContext(AtomContext::class, $i);
@@ -2237,7 +2237,7 @@ class ListVariableContext extends ParserRuleContext
 class NotExpressionContext extends ParserRuleContext
 {
 	function NOT() : TerminalNode { return $this->getToken(ExpressionParser::NOT, 0); }
-	function notExpressionInner() : NotExpressionInnerContext
+	function notExpressionInner() : ?NotExpressionInnerContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(NotExpressionInnerContext::class, 0);
@@ -2257,17 +2257,17 @@ class NotExpressionContext extends ParserRuleContext
 
 class NotExpressionInnerContext extends ParserRuleContext
 {
-	function scalarVariable() : ScalarVariableContext
+	function scalarVariable() : ?ScalarVariableContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(ScalarVariableContext::class, 0);
 	}
-	function group() : GroupContext
+	function group() : ?GroupContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(GroupContext::class, 0);
 	}
-	function func() : FuncContext
+	function func() : ?FuncContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(FuncContext::class, 0);
@@ -2288,7 +2288,7 @@ class NotExpressionInnerContext extends ParserRuleContext
 class MinusExpressionContext extends ParserRuleContext
 {
 	function MINUS() : TerminalNode { return $this->getToken(ExpressionParser::MINUS, 0); }
-	function atom() : AtomContext
+	function atom() : ?AtomContext
 	{
 	    /** @noinspection PhpIncompatibleReturnTypeInspection */
 		return $this->getTypedRuleContext(AtomContext::class, 0);
