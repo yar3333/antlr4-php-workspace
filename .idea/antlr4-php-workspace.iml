@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/.github" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/.travis" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/antlr4-maven-plugin" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/build" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/doc" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/runtime-testsuite" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/runtime/CSharp" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/runtime/Cpp" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/runtime/Go" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/runtime/Python2" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/runtime/Python3" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/runtime/Swift" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/tool" />
+      <excludeFolder url="file://$MODULE_DIR$/antlr4/tool-testsuite" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
