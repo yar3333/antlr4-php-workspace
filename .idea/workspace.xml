@@ -15,7 +15,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -287,6 +287,7 @@
       <workItem from="1560948266567" duration="3579000" />
       <workItem from="1560954596320" duration="799000" />
       <workItem from="1561015026562" duration="1790000" />
+      <workItem from="1561016915123" duration="6000" />
     </task>
     <servers />
   </component>
@@ -314,12 +315,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95361000" />
+    <option name="totallyTimeSpent" value="95367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" weight="0.14552239" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -594,20 +595,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/Channel/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/Basic/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/Channel/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/Examples/Basic/autoload.php" />
     <entry file="file://$PROJECT_DIR$/Examples/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
