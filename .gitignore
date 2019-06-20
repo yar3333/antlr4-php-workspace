@@ -1,5 +1,1 @@
-tests/basic/antlr4
-tests/expression/antlr4
-tests/channel/antlr4
-tests/labeled_subrule/antlr4
 vendor/
