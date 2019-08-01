@@ -1,11 +1,13 @@
 # ANTLR v4 / workspace for PHP target
 
-This repo is a root for [antlr4](https://github.com/yar3333/antlr4) subrepo with a `PHP` target and contains `tests` folder as playground.
+This repo is a root for [antlr4](https://github.com/yar3333/antlr4) subrepo with a `PHP` target and contains `examples` folder as playground.
+
+For using manual see [antlr4-php-runtime](https://github.com/yar3333/antlr4-php-runtime).
 
 ## Notes
 
  * now tested with a `visitor` model (`listener` not tested at all);
- * context classes are generated inside `*Parser.php` file, so you need a special code to php classes autoloading work (see `tests`).
+ * context classes are generated inside `*Parser.php`, so you need a code to correct autoloading (see `examples`).
 
 ## About `antlr4` subrepo
 
