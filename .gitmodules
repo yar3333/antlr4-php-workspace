@@ -1,7 +1,3 @@
 [submodule "antlr4"]
 	path = antlr4
 	url = https://github.com/yar3333/antlr4.git
-
-[submodule "antlr4-php-runtime"]
-	path = antlr4-php-runtime
-	url = https://github.com/yar3333/antlr4-php-runtime.git
