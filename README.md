@@ -2,6 +2,10 @@
 
 This repo is a root for [antlr4](https://github.com/yar3333/antlr4) subrepo with a `PHP` target and contains `tests` folder as playground.
 
+## Notes
+
+ * now tested with a `visitor` model (`listener` not tested at all);
+ * context classes are generated inside `*Parser.php` file, so you need a special code to php classes autoloading work (see `tests`).
 
 ## About `antlr4` subrepo
 
@@ -14,13 +18,6 @@ Next files are added/modified:
  * `runtime/Php` - files which must be used in your PHP application (converted from `runtime/JavaScript`and fixed using `runtime/Java` as a reference);
  * `tool/src/org/antlr/v4/codegen/target/PhpTarget.java` - used by code generator (serialize data to PHP string, list of PHP keywords...);
  * several fixes in antlr4 core (because PHP does not support nested classes, but original antlr4 expect this feature supported).
-
-
-## Notes
-
- * now basically tested with a `visitor` model (`listener` not tested at all);
- * context classes are generated inside `*Parser.php` file, so you need a special code to php classes autoloading work (see `tests`).
-
 
 ## Contributing
 
