@@ -26,11 +26,10 @@ Next files are added/modified:
  * install latest [JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html);
  * install [Maven](https://maven.apache.org/);
  * clone this repo (`git clone --recurse-submodules https://github.com/yar3333/antlr4-php-workspace.git`);
- * goto `tests/basic` and run `build_antlr_and_generate.cmd`;
- * open `tests/basic` in your IDE (setting for `phpstorm` already in repo):
-	* `antlr4` - link to antlr4 folder contains PHP classes used in runtime;
+ * goto `examples/Basic` and run `build_antlr_and_generate.cmd`;
+ * open `examples/Basic` in your IDE (setting for `phpstorm` already in root folder of repo):
 	* `Gram.g4` - grammar file;
-	* `Gram.php` - PHP entry point.
+	* `main.php` - PHP entry point.
 
 Now shell helpers work on `Windows` (`build_antlr_and_generate.cmd` and `generate.cmd`).
 If you have `*nix`, please, write `*.sh` alternatives.
